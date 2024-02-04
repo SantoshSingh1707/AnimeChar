@@ -1,0 +1,130 @@
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Open+Sans&family=Oswald:wght@300&family=Poppins:wght@400;600&family=Protest+Revolution&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width :100%
+}
+
+.head{
+    top: 3px;
+    background-color: black;
+    height: 10%;
+    color: transparent;
+    font-size: 40px;
+    -webkit-text-stroke: 1.5px white;
+    font-family: 'Protest revolution',Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.719);
+    /* background-color: #0274be; */
+    height: 8%;
+    font-size: 30px;
+    text-align: center; 
+}
+li{
+    padding: 0px 42px 0 53px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+a::after{
+    text-decoration: none;
+}
+.main{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.shonen{
+    padding: 14px 10px 10px 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    
+}
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed;
+    z-index: 1; 
+    top: 0px;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+.Shounen{
+    font-size: 22px;
+    color: white;
+    font-family:'Open Sans' ;
+    line-height: 40px;
+}
+.arrow {
+    display: inline-block;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border-top: 5px solid #000;
+    border-right: 5px solid #000;
+    transform: rotate(45deg);
+ }
+.Top{
+    font-size: 40px;
+}
+
+.container {
+    height: 250px;
+    width: 200px;
+    border: 2px solid blue;
+    margin: 2px 4px 3px 102px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr ;
+    overflow-x: scroll;
+}
+

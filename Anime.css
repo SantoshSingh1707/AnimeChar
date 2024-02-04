@@ -1,0 +1,147 @@
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Oswald:wght@300&family=Poppins:wght@400;600&family=Protest+Revolution&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width :100%
+}
+.head{
+    top: 3px;
+    background-color: black;
+    height: 50px;
+    color: transparent;
+    font-size: 40px;
+    -webkit-text-stroke: 1.5px white;
+    font-family: 'Protest revolution',Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.719);
+    /* background-color: #0274be; */
+    height: 40px;
+    font-size: 30px;
+    text-align: center; 
+}
+li{
+    padding: 0px 42px 0 53px;
+    display: inline-block;
+}
+.box{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.Shonen{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr ;
+    overflow-x: auto;
+    
+}
+.Shoujo{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr ;
+    overflow-x: auto;
+}
+.Seinen{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr ;
+    overflow-x: auto;
+}
+.Isekai{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr ;
+    overflow-x: auto;
+}
+.anime {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    /* border: 2px solid blue; */
+    margin: 2px 4px 3px 102px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.name{
+    font-size:60px ;
+    color: white;
+    font-family: 'Protest revolution',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; 
+}
+img{
+    height: 244px;
+    width: 194px;
+    /* border: .1px solid black; */
+    border-radius :5px ;
+}
+.bottom{
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(transparent,black);
+    /* background-color:black ; */
+    /* opacity: 0.93; */
+    position: absolute;
+    bottom: -50%;
+    transition: all ease 0.5s;
+    font-size: 20px;
+    color: white;
+}
+.anime:hover .bottom{
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+a::after{
+    text-decoration: none;
+}
+.foot{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto slab',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.span{
+    font-size:60px ;
+    font-family: 'Protest revolution',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+}
+.span1{
+    font-family: 'Protest revolution',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:10px ;
+}
+.link{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.Follow{
+    margin-left: 144px;
+    color: #aabbe4;
+}
+svg{
+    margin-top: 10px;
+    height: 50px;
+    width: 70px;
+}

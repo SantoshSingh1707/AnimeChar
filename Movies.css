@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Oswald:wght@300&family=Poppins:wght@400;600&family=Protest+Revolution&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width :100%
+}
+.head{
+    top: 3px;
+    background-color: black;
+    height: 60px;
+    color: transparent;
+    font-size: 50px;
+    -webkit-text-stroke: 1.5px white;
+    font-family: 'Protest revolution',Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+a::after{
+    text-decoration: none;
+}
+.nav{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 40px;
+    font-size: 30px;
+    text-align: center; 
+}
+li{
+    padding: 0px 42px 0 53px;
+    display: inline-block;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.name{
+    font-size:60px ;
+    color: white;
+    font-family: 'Protest revolution',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.action{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width:none ;
+}
+.Comedy{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width:none ;
+}
+.Si-Fi{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width:none ;
+}
+.bottom::-webkit-scrollbar{
+    display: none;
+}
+.action::-webkit-scrollbar{
+    display: none;
+}
+.Comedy::-webkit-scrollbar{
+    display: none;
+}
+.Si-Fi::-webkit-scrollbar{
+    display: none;
+}
+.movie{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    border: 2px solid purple;
+    margin: 2px 4px 3px 102px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    transition: all ease 1s;
+    transition-delay: 0.5s;
+    
+}
+
+img{
+    height: 250px;
+    width: 200px;
+    /* border: .1px solid black; */
+    border-radius :5px ;
+    transition: all ease 1s;
+    transition-delay: 0.5s;
+}
+
+.bottom{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background: black;
+    /* background-color:black ; */
+    opacity: 0.83;
+    position: absolute;
+    bottom: -100%;
+    transition: all ease 0.5s;
+    transition-delay: 0.3s;
+    font-size: 15px;
+    color: white;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width:none ;
+}
+
+.movie:hover {
+    height: 250px;
+    width: 260px;
+    transition:all ease 0.5s;
+}
+.movie:hover img{
+    height: 250px;
+    width: 260px;
+    transition:all ease 0.5s;
+    cursor: pointer;
+}
+.movie:hover .bottom {
+    bottom: 0;
+}
+.title{
+    font-size: 25px;
+    font-family: Roboto Slab;
+    color: rgba(245, 136, 136, 0.842)
+}
+.Storyline{
+    font-size:20px;
+    font-family: Poppins;
+}
+
+.foot{
+    position: absolute;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto slab',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.span{
+    font-size:60px ;
+    font-family: 'Protest revolution',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+}
+.span1{
+    font-family: 'Protest revolution',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:10px ;
+}
+.link{
+    font-family: 'Protest revolution',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.Follow{
+    margin-left: 144px;
+    color: #aabbe4;
+}
+svg{
+    margin-top: 10px;
+    height: 50px;
+    width: 70px;
+}
